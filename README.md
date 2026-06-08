@@ -1,4 +1,4 @@
-# lgtv-volume
+# LGTVCompanionMacOS
 
 Drive an LG webOS TV's volume from the Mac keyboard volume keys over the LAN.
 When the Mac outputs audio over HDMI, macOS disables software volume control, so
