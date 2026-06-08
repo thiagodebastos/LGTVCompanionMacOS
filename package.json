@@ -1,0 +1,19 @@
+{
+  "name": "lgtv-volume",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Daemon to drive LG webOS TV volume from Mac keyboard volume keys over LAN",
+  "main": "dist/daemon.js",
+  "scripts": {
+    "build": "tsc",
+    "daemon": "node dist/daemon.js",
+    "client": "node dist/client.js"
+  },
+  "dependencies": {
+    "lgtv2": "^1.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}

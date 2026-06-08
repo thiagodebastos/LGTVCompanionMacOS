@@ -1,0 +1,12 @@
+# dependencies & build output
+node_modules/
+dist/
+
+# runtime logs
+*.log
+
+# your real config (ship config.example.json instead)
+config.json
+
+# macOS
+.DS_Store
